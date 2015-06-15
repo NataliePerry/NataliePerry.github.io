@@ -1,7 +1,8 @@
 body {
 	text-align: center;
-	background: #D1D0CE;
-	color: #25383C;
+	background-image: url("images/cityscape.jpg");
+	background-size: cover;
+	color: 000;
 	font-family: Helvetica;
 }
 
@@ -16,7 +17,7 @@ h1, h2 {
 
 h1	{
 font-family: 'Montserrat', sans-serif;
-	color: #008080;
+	color: 000;
 }
 
 #slogan	{
@@ -38,4 +39,5 @@ li 	{
 
 #link	{
 	text-decoration: underline;
+	padding-bottom: 400px;
 }
