@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body {
 	text-align: center;
 	background: #D1D0CE;
@@ -14,14 +16,17 @@ h1, h2 {
 	text-transform: uppercase
 }
 
+
 h1	{
 font-family: 'Montserrat', sans-serif;
 	color: #008080;
 }
 
-#slogan	{
+h2	{
 font-family: 'Montserrat', sans-serif;
+	color: #008080;
 }
+
 
 p	{
 	font-size: 16px;
