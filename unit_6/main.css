@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
+body {
+/*	background: #fff;*/
+	color: #000;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 60px;
+}
+
+.center {
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+img {
+	height: 130px;
+	float: left;
+	padding: 30px;
+	display: inline;
+}
+
+hr {
+	width: 100%;
+}
+
+nav	{
+	text-transform: uppercase;
+  	font-size: 1.4em;
+  	float: right;
+  	padding: 30px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+h1, h2 {
+	text-transform: uppercase
+	font-weight: 800;
+}
+
+
+h1	{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	text-transform: uppercase
+}
+
+#imagegrid {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+#gallery {
+	display: block;
+	width: 400px;
+	margin: 10px;
+/*	background: #fffebb;*/
+	float: left;
+} 
+.topcenter{
+	display: block;
+	width: 1320px;
+
+}
+
+div div {
+	display: block;
+	width: 1320px;
+/*	float: center;*/
+/*	margin: 20px;*/
+/*	background: #343434;*/
+} 
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+}
+.bottomcenter{
+	display: block;
+	width: 1320px;
+
+}
+
+
