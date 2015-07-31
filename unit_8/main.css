@@ -23,10 +23,16 @@ body {
     height: 0;
 }
 
+header {
+	margin:2% auto 0;
+	width:98%;
+	max-width: 1500px;
+}
+
 img {
 	height: 400px;
 	float: left;
-	padding: 2em;
+	padding: 1em;
 	display: inline;
 }
 
@@ -60,34 +66,41 @@ h1	{
 	text-transform: uppercase
 }
 
-#imagegrid {
-	margin: 0 auto;
-	padding: 5%;
+.imagegrid {
+	margin:2% auto 0;
+	width:98%;
+	max-width: 1000px;
 }
 
+/*.imagegrid {
+	margin: 0 auto;
+	padding: 5%;
+}*/
 
-#gallery {
+
+.gallery {
 	display: block;
-	width: 400px;
-	margin: 2em;
+	width: 100;
+	margin: 1.25em;
 /*	background: #fffebb;*/
 	float: left;
 } 
+
+
 .hero{
 	display: block;
 	width: 100%;
 	float: left;
-
-
 }
 
-div div {
+/*div div {
 	display: block;
-	width: 90%;
+	width: 90%;*/
+
 /*	float: center;*/
 /*	margin: 20px;*/
 /*	background: #343434;*/
-} 
+/*} */
 
 footer {
   text-align: center;
@@ -100,5 +113,18 @@ footer {
 	width: 90%;
 
 }
+ @media screen and (max-width:768px) {
+ 	.gallery{
+ 	float:none;
+ 	}
+ }
+
+}
+ @media screen and (max-width:370px) {
+ 	.gallery{
+ 	float:none;
+ 	}
+ }
+
 
 
